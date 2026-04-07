@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://wuyichao71.github.io/sitemap.xml
+Sitemap: https://wuyichao71.github.io/lab-page/sitemap.xml
