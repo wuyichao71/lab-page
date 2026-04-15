@@ -160,30 +160,6 @@ echo "hello, cell"
 
 ---
 
-# Some feature of **AGE** and **SLURM**
-
-```bash
-#!/usr/bin/env bash
-#$ -S /bin/bash
-#$ -cwd
-#$ -pe mpi 1
-#$ -q all.q@kinase.local
-#$ -e stdout.$JOB_NAME
-#$ -o stdout.$JOB_NAME
-echo "hello, ${JOB_NAME}"
-```
-
-```bash
-#!/usr/bin/env bash
-echo ""
-#SBATCH -p serine
-#SBATCH --cpus-per-task=1
-#SBATCH -o stdout.%x
-echo "hello, ${SLURM_JOB_NAME}"
-```
-
----
-
 # submit by command line
 
 ```bash
