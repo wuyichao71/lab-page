@@ -33,7 +33,7 @@ The recommand method is to write a section in `~/.ssh/config`
 
 ```
 Host cell
-    HostName 100.127.5.10
+    HostName ip_address
     User wuyichao
 ```
 
