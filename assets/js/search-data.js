@@ -72,7 +72,18 @@ ninja.data = [{
               handler: () => {
                 window.location.href = "/lab-page/blog/";
               },
-            },{id: "post-a-post-with-plotly-js",
+            },{id: "post-the-usage-of-cell",
+        
+          title: "the usage of cell",
+        
+        description: "the usage of cell server",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/lab-page/blog/2025/cell-usage/";
+          
+        },
+      },{id: "post-a-post-with-plotly-js",
         
           title: "a post with plotly.js",
         
