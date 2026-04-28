@@ -1,5 +1,5 @@
 ---
-marp: true
+# marp: true
 title: cell
 theme: default
 paginate: true
@@ -34,7 +34,7 @@ The recommand method is to write a section in `~/.ssh/config`
 ```
 Host cell
     HostName ip_address
-    User wuyichao
+    User guest
 ```
 
 Then you can login to the server by
@@ -64,12 +64,12 @@ ssh-copy-id cell
 # Computational resources
 
 There are four machines on the cell:
-| | helix | kinase | beta | serine |
-| ------- | ----------------------------------------- | ------ | ------------------------------ | ------------------------------ |
-| CPU | Intel(R) Xeon(R) Gold 6226R CPU @ 2.90GHz | | Intel(R) Core(TM) i9-14900K | Intel(R) Core(TM) Ultra 9 285K |
-| CPU core | 32 | | 24 | 24 |
-| GPU | NVIDIA RTX A4000 x 2 | | NVIDIA RTX 4000 Ada Generation x 1 | NVIDIA GeForce RTX 5090 x 1 |
-|memory|125Gi||62Gi|62Gi|
+|        | helix                                     | kinase | beta                          | serine                        |
+|--------|-------------------------------------------|--------|-------------------------------|-------------------------------|
+| CPU    | Intel(R) Xeon(R) Gold 6226R CPU @ 2.90GHz |        | Intel(R) Core(TM) i9-14900K   | Intel(R) Core(TM) Ultra 9 285K|
+| CPU core | 32                                      |        | 24                            | 24                            |
+| GPU    | NVIDIA RTX A4000 x 2                      |        | NVIDIA RTX 4000 Ada Generation x 1 | NVIDIA GeForce RTX 5090 x 1 |
+| memory | 125Gi                                    |        | 62Gi                          | 62Gi                          |
 
 ---
 
