@@ -67,7 +67,7 @@ ssh-copy-id cell
 There are four machines on the cell:
 
 |    resource    | helix                                     | kinase | beta                          | serine                        |
-| :--------| :-------------------------------------------: | :--------: | :-------------------------------: | -------------------------------: |
+| :-------- | :------------------------------------------- | :-------- | :------------------------------- | ------------------------------- |
 | CPU    | Intel(R) Xeon(R) Gold 6226R CPU @ 2.90GHz |   -     | Intel(R) Core(TM) i9-14900K   | Intel(R) Core(TM) Ultra 9 285K|
 | CPU core | 32                                      |    -    | 24                            | 24                            |
 | GPU    | NVIDIA RTX A4000 x 2                      |     -   | NVIDIA RTX 4000 Ada Generation x 1 | NVIDIA GeForce RTX 5090 x 1 |
