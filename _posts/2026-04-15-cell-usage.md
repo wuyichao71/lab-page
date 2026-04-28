@@ -64,6 +64,7 @@ ssh-copy-id cell
 # Computational resources
 
 There are four machines on the cell:
+
 |    resource    | helix                                     | kinase | beta                          | serine                        |
 |--------|-------------------------------------------|--------|-------------------------------|-------------------------------|
 | CPU    | Intel(R) Xeon(R) Gold 6226R CPU @ 2.90GHz |   -     | Intel(R) Core(TM) i9-14900K   | Intel(R) Core(TM) Ultra 9 285K|
